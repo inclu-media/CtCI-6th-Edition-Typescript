@@ -9,6 +9,6 @@ After cloning the repository run
 ## Testing
 
 Run
-`npm test`
+`npm test` 
 
 [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
