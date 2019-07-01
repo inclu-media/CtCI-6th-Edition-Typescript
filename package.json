@@ -1,0 +1,43 @@
+{
+  "name": "ctci-6th-edition-typescript",
+  "version": "0.0.1",
+  "description": "Cracking the Coding Interview - Solutions in Typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inclu-media/CtCI-6th-Edition-Typescript.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Coding",
+    "Challenge",
+    "CtCI"
+  ],
+  "author": "Martin Melcher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inclu-media/CtCI-6th-Edition-Typescript/issues"
+  },
+  "homepage": "https://github.com/inclu-media/CtCI-6th-Edition-Typescript#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "gts": "^1.0.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {}
+}
